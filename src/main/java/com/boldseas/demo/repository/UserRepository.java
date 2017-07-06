@@ -4,6 +4,8 @@ import com.boldseas.demo.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 /**
  * description :
  * author : wenbo.chen@boldseas.com
@@ -12,4 +14,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserRepository extends JpaRepository<User,Long> {
 
+    List<User> findByUserNameLike(String userName);
 }

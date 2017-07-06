@@ -28,9 +28,13 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile("org.springframework.boot:spring-boot-devtools")
+
 	compile group: 'org.modelmapper', name: 'modelmapper', version: '1.0.0'
 	compile('com.h2database:h2')
 	compile('org.projectlombok:lombok')
+
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.6.1'
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.6.1'
 }
 
 task wrapper(type: Wrapper) {
