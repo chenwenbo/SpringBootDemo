@@ -4,7 +4,7 @@ buildscript {
 	}
 	repositories {
 		mavenCentral()
-		jCentral()
+		jcenter()
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -20,11 +20,20 @@ sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
-		jCentral()
+	jcenter()
 }
 
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile("org.springframework.boot:spring-boot-devtools")
+	compile group: 'org.modelmapper', name: 'modelmapper', version: '1.0.0'
+	compile('com.h2database:h2')
+	compile('org.projectlombok:lombok')
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = '3.5'
+	distributionUrl = "https://services.gradle.org/distributions/gradle-$gradleVersion-all.zip"
 }
