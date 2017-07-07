@@ -1,6 +1,6 @@
-package com.boldseas.demo.repository;
+package com.boldseas.springboot.repository;
 
-import com.boldseas.demo.domain.User;
+import com.boldseas.springboot.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

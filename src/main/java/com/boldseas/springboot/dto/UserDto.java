@@ -1,4 +1,4 @@
-package com.boldseas.demo.dto;
+package com.boldseas.springboot.dto;
 
 import lombok.Data;
 

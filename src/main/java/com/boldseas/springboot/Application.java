@@ -1,4 +1,4 @@
-package com.boldseas.demo;
+package com.boldseas.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

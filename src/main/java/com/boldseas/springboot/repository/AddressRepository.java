@@ -1,6 +1,6 @@
-package com.boldseas.demo.repository;
+package com.boldseas.springboot.repository;
 
-import com.boldseas.demo.domain.Address;
+import com.boldseas.springboot.domain.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

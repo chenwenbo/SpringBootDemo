@@ -1,4 +1,4 @@
-package com.boldseas.demo.config;
+package com.boldseas.springboot.config;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
@@ -13,8 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Configuration
-public class DruidConfiguration {
-    private static final Logger logger = LoggerFactory.getLogger(DruidConfiguration.class);
+public class DruidConfig {
+    private static final Logger logger = LoggerFactory.getLogger(DruidConfig.class);
 
     @Bean
     public ServletRegistrationBean druidServlet() {

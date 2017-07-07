@@ -1,8 +1,8 @@
-package com.boldseas.demo.controller;
+package com.boldseas.springboot.web;
 
-import com.boldseas.demo.domain.User;
-import com.boldseas.demo.dto.UserDto;
-import com.boldseas.demo.repository.UserRepository;
+import com.boldseas.springboot.domain.User;
+import com.boldseas.springboot.dto.UserDto;
+import com.boldseas.springboot.repository.UserRepository;
 import io.swagger.annotations.ApiOperation;
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;

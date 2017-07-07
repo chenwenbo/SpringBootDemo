@@ -1,4 +1,4 @@
-package com.boldseas.demo.domain;
+package com.boldseas.springboot.domain;
 
 import lombok.Data;
 
